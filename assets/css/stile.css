@@ -1,0 +1,147 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+header {
+    height: 150px;
+    background-color: #00c3ff;
+    border-bottom: 2px solid #006aff;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+header span {
+    background-color: #ffffff;
+    color: #00ffff;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* MAIN */
+
+
+/* ELEMENTI NEL MAIN */
+.info-personali {
+    color: #00c3ff;
+    text-align: center;
+    font-size: 2em;
+    height: 70px;
+
+}
+
+hr {
+    border-top: 1px,dashed;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1em;
+    font-weight: bold;
+    height: 60px;
+}
+
+address b {
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: #ff0000;
+}
+
+p b {
+    font-weight: bold;
+}
+
+.my-p {
+    height: 50px;
+}
+
+blockquote {
+    background-color: #6e6a6a67;
+    border-radius: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+.presentazione h2 {
+    font-weight: bold;
+    color: #00c3ff;
+    text-align: center;
+    font-size: 24px;
+    height: 40px;
+
+}
+
+p strong {
+    color: #00c3ff;
+}
+
+#presentazione h2 {
+    font-weight: bold;
+    color: #00c3ff;
+    font-size: 24px;
+    text-align: center;
+}
+
+#presentazione h3 {
+    font-weight: bold;
+}
+
+#competenze h2 {
+    font-weight: bold;
+    color: #00c3ff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.conoscenze-tecniche h3 {
+    font-weight: bold;
+}
+
+.conoscenze-operative h3 {
+    font-weight: bold;
+}
+
+.conoscenze-operative strong {
+    color: #00c3ff;
+}
+
+li{
+    margin: 0 1.5em;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+kbd{
+    color: #ffff00;
+}
+
+small{
+    color: gray;
+}
